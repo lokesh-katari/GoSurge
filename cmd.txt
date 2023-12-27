@@ -1,0 +1,5 @@
+go run --race  ./ -url="http://3.95.102.170/post" -m POST -content='{"lokesh":"loeksh","age":100}' -con-type=application/json -n 10  -c 30 -tls=true
+
+./gosurge.exe  -url="https://google.com" -res-body=true
+
+go run ./ -f="/home/lokesh/Projects/helloGo/readFIle/urls" -n=10
